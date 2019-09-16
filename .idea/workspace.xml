@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e51567-4d88-48e7-baa3-fb4da91dc56f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Draymond/NIO/TestChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+            <state relative-caret-position="203">
+              <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,7 +125,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568620299795" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568620935078" />
     <property name="last_opened_file_path" value="D:/workspace/dlzjfgl" />
   </component>
   <component name="RecentsManager">
@@ -253,20 +251,11 @@
       <updated>1567989761381</updated>
       <workItem from="1567989765399" duration="1093000" />
       <workItem from="1568074368488" duration="1830000" />
-      <workItem from="1568592375407" duration="14930000" />
+      <workItem from="1568592375407" duration="15719000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestChannel_test4 - 2019.09.16 at 15h 26m 35s.xml">
-      <configuration name="TestChannel.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChannel_test4 - 2019.09.16 at 15h 27m 11s.xml">
-      <configuration name="TestChannel.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestChannel_test4 - 2019.09.16 at 15h 28m 23s.xml">
-      <configuration name="TestChannel.test4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestChannel_test4 - 2019.09.16 at 15h 28m 33s.xml">
       <configuration name="TestChannel.test4" configurationId="JUnit" />
     </history-entry>
@@ -288,9 +277,18 @@
     <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 43m 25s.xml">
       <configuration name="TestChannel.test6" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 48m 29s.xml">
+      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 48m 58s.xml">
+      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 49m 09s.xml">
+      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17853000" />
+    <option name="totallyTimeSpent" value="18642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,7 +321,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.3512748" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" visible="true" weight="0.3512748" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.39943343" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,8 +423,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+        <state relative-caret-position="203">
+          <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
