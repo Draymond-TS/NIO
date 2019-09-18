@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18e51567-4d88-48e7-baa3-fb4da91dc56f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Draymond/NIO/TestBlockingNIO2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Draymond/NIO/TestBlockingNIO2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +14,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestBlockingNIO2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            <state relative-caret-position="420">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestNonBlockingNIO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestNonBlockingNIO2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1219">
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestPipe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,6 +75,7 @@
     <findStrings>
       <find>clear</find>
       <find>fileChannel</find>
+      <find>ByteBuffer</find>
     </findStrings>
     <replaceStrings>
       <replace>inChannel</replace>
@@ -56,14 +94,17 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/Draymond/NIO/TestBlockingNIO.java" />
         <option value="$PROJECT_DIR$/src/com/Draymond/NIO/TestBlockingNIO2.java" />
+        <option value="$PROJECT_DIR$/src/com/Draymond/NIO/TestNonBlockingNIO.java" />
+        <option value="$PROJECT_DIR$/src/com/Draymond/NIO/TestNonBlockingNIO2.java" />
+        <option value="$PROJECT_DIR$/src/com/Draymond/NIO/TestPipe.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -71,8 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,6 +149,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,7 +160,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568624529980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568766195845" />
     <property name="last_opened_file_path" value="D:/workspace/dlzjfgl" />
   </component>
   <component name="RecentsManager">
@@ -142,8 +183,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBlockingNIO2.client">
-    <configuration name="TestBlockingNIO2.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestPipe.test1">
+    <configuration name="TestNonBlockingNIO2.receive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NIO" />
       <extension name="coverage">
         <pattern>
@@ -152,14 +193,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Draymond.NIO" />
-      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestBlockingNIO2" />
+      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestNonBlockingNIO2" />
+      <option name="METHOD_NAME" value="receive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNonBlockingNIO2.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Draymond.NIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Draymond.NIO" />
+      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestNonBlockingNIO2" />
+      <option name="METHOD_NAME" value="send" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNonBlockingNIO.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Draymond.NIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Draymond.NIO" />
+      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestNonBlockingNIO" />
       <option name="METHOD_NAME" value="client" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBlockingNIO2.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNonBlockingNIO.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NIO" />
       <extension name="coverage">
         <pattern>
@@ -168,14 +241,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Draymond.NIO" />
-      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestBlockingNIO2" />
+      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestNonBlockingNIO" />
       <option name="METHOD_NAME" value="server" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBlockingNIO.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPipe.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NIO" />
       <extension name="coverage">
         <pattern>
@@ -184,40 +257,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Draymond.NIO" />
-      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestBlockingNIO" />
-      <option name="METHOD_NAME" value="client" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBlockingNIO.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Draymond.NIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Draymond.NIO" />
-      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestBlockingNIO" />
-      <option name="METHOD_NAME" value="server" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChannel.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NIO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Draymond.NIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Draymond.NIO" />
-      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestChannel" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="MAIN_CLASS_NAME" value="com.Draymond.NIO.TestPipe" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBlockingNIO2.client" />
-        <item itemvalue="JUnit.TestBlockingNIO2.server" />
-        <item itemvalue="JUnit.TestBlockingNIO.client" />
-        <item itemvalue="JUnit.TestBlockingNIO.server" />
-        <item itemvalue="JUnit.TestChannel.test6" />
+        <item itemvalue="JUnit.TestPipe.test1" />
+        <item itemvalue="JUnit.TestNonBlockingNIO2.send" />
+        <item itemvalue="JUnit.TestNonBlockingNIO2.receive" />
+        <item itemvalue="JUnit.TestNonBlockingNIO.client" />
+        <item itemvalue="JUnit.TestNonBlockingNIO.server" />
       </list>
     </recent_temporary>
   </component>
@@ -245,44 +286,45 @@
       <updated>1567989761381</updated>
       <workItem from="1567989765399" duration="1093000" />
       <workItem from="1568074368488" duration="1830000" />
-      <workItem from="1568592375407" duration="19278000" />
+      <workItem from="1568592375407" duration="24661000" />
+      <workItem from="1568711612815" duration="2083000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestChannel_test4 - 2019.09.16 at 15h 28m 55s.xml">
-      <configuration name="TestChannel.test4" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO_client - 2019.09.17 at 08h 27m 02s.xml">
+      <configuration name="TestNonBlockingNIO.client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChannel_test5 - 2019.09.16 at 15h 30m 47s.xml">
-      <configuration name="TestChannel.test5" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO_server - 2019.09.17 at 08h 27m 03s.xml">
+      <configuration name="TestNonBlockingNIO.server" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 42m 49s.xml">
-      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO_client - 2019.09.17 at 08h 29m 12s.xml">
+      <configuration name="TestNonBlockingNIO.client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 43m 15s.xml">
-      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO_server - 2019.09.17 at 08h 29m 12s.xml">
+      <configuration name="TestNonBlockingNIO.server" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 43m 25s.xml">
-      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO_client - 2019.09.17 at 08h 29m 48s.xml">
+      <configuration name="TestNonBlockingNIO.client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 48m 29s.xml">
-      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO_server - 2019.09.17 at 08h 29m 48s.xml">
+      <configuration name="TestNonBlockingNIO.server" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 48m 58s.xml">
-      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO_server - 2019.09.17 at 08h 32m 48s.xml">
+      <configuration name="TestNonBlockingNIO.server" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestChannel_test6 - 2019.09.16 at 15h 49m 09s.xml">
-      <configuration name="TestChannel.test6" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO_client - 2019.09.17 at 08h 32m 51s.xml">
+      <configuration name="TestNonBlockingNIO.client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBlockingNIO_server - 2019.09.16 at 16h 43m 14s.xml">
-      <configuration name="TestBlockingNIO.server" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO2_send - 2019.09.18 at 08h 19m 30s.xml">
+      <configuration name="TestNonBlockingNIO2.send" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestBlockingNIO_client - 2019.09.16 at 16h 43m 14s.xml">
-      <configuration name="TestBlockingNIO.client" configurationId="JUnit" />
+    <history-entry file="TestNonBlockingNIO2_receive - 2019.09.18 at 08h 19m 33s.xml">
+      <configuration name="TestNonBlockingNIO2.receive" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22201000" />
+    <option name="totallyTimeSpent" value="29667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,14 +339,13 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16018766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20710456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49932975" weight="0.9575071" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3286119" />
@@ -313,10 +354,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932975" weight="0.3512748" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.9575071" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,9 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2.txt" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -422,9 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestBlockingNIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -435,10 +472,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2.png" />
     <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestBlockingNIO2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        <state relative-caret-position="420">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestNonBlockingNIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestNonBlockingNIO2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Draymond/NIO/TestPipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

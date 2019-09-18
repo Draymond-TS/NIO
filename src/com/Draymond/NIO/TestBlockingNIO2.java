@@ -29,7 +29,7 @@ public class TestBlockingNIO2 {
             byteBuffer.clear();
 
         }
-
+        //杀掉线程，避免受到阻塞不能发送消息
         socketChannel.shutdownOutput();
 
         inChannel.close();
